@@ -175,8 +175,21 @@ section {
 }
 
 .about-image {
-  display: flex;
+  display: flex ;
   justify-content: center;
+}
+
+.about-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 30px var(--shadow);
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
 }
 
 .image-placeholder {
@@ -499,6 +512,11 @@ section {
     height: 200px;
   }
 
+  .about-image img {
+    width: 200px;
+    height: 200px;
+  }
+
   .contact-content {
     grid-template-columns: 1fr;
   }
@@ -525,6 +543,11 @@ section {
     width: 150px;
     height: 150px;
     font-size: 1rem;
+  }
+
+  .about-image img {
+    width: 150px;
+    height: 150px;
   }
 
   .project-card {

@@ -24,7 +24,7 @@ function Navbar({ darkMode, toggleDarkMode }) {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-logo" onClick={() => scrollToSection('about')}>
-          <span>Portfolio</span>
+          <span>Andrei Da Silva's Portfolio</span>
         </div>
         
         <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>

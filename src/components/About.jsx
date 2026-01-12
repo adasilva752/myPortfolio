@@ -1,10 +1,12 @@
 import React from 'react'
+import profileImage from '../images/chat_edit_image_20251114_141313.png'
 
 function About() {
   const skills = [
     'JavaScript',
     'React',
-    'HTML/CSS',
+    'Go',
+    'Python',
     'Git',
     'Problem Solving',
     'Team Collaboration'
@@ -13,8 +15,9 @@ function About() {
   const interests = [
     'Web Development',
     'UI/UX Design',
+    'Distributed Systems',
+    'Blockchain',
     'Learning New Technologies',
-    'Open Source'
   ]
 
   return (
@@ -23,16 +26,14 @@ function About() {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <div className="about-image">
-            <div className="image-placeholder">
-              <span>Your Photo</span>
-            </div>
+            <img src={profileImage} alt="About me" />
           </div>
           <div className="about-text">
             <p className="bio">
-              Welcome to my portfolio! I'm a passionate developer learning web development 
-              and building projects that solve real-world problems. I enjoy creating 
-              user-friendly applications and continuously expanding my skills in modern 
-              web technologies.
+              Welcome to my portfolio! I'm a passionate developer excited about building 
+              software solutions and tacklingprojects that solve real-world problems. 
+              I enjoy creating user-friendly applications and continuously expanding my 
+              skills in modern web and software systems technologies.
             </p>
             
             <div className="skills-section">
