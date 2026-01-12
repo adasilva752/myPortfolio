@@ -38,13 +38,13 @@ function Contact() {
               opportunities to be part of your visions.
             </p>
             <div className="contact-links">
-              <a href="mailto:your.email@example.com" className="contact-link">
-                📧 your.email@example.com
+              <a href="mailto:a.petru.dasilva@gmail.com" className="contact-link">
+                📧 a.petru.dasilva@gmail.com
               </a>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <a href="https://github.com/adasilva752" target="_blank" rel="noopener noreferrer" className="contact-link">
                 💻 GitHub
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <a href="https://linkedin.com/in/dasilvaandrei" target="_blank" rel="noopener noreferrer" className="contact-link">
                 💼 LinkedIn
               </a>
             </div>
