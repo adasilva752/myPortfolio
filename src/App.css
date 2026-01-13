@@ -303,7 +303,12 @@ section {
 .project-header h3 {
   font-size: 1.5rem;
   color: var(--text-primary);
-  margin-bottom: 0.5rem;
+  margin-bottom:0rem;
+}
+.project-subheader h4 {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.2rem;
 }
 
 .project-body p {
