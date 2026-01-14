@@ -98,7 +98,7 @@ function Projects() {
     {
       id: 13,
       title: 'MinusAI',
-      description: 'Created a Chrome extension that stops the automatic AI response from gemini to help conserve water and resources on unecessary searches.',
+      description: 'Created a Chrome extension that stops the automatic AI response from gemini to help conserve water and resources. This is to help those who care about the environment.',
       technologies: ['React'],
       Github: "https://github.com/adasilva752/minusAI"
     }   
